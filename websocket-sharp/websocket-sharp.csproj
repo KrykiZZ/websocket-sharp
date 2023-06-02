@@ -7,10 +7,16 @@
     <AssemblyOriginatorKeyFile>websocket-sharp.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyTitle>websocket-sharp</AssemblyTitle>
-    <Description>A C# implementation of the WebSocket protocol client and server</Description>
+    <Description>A C# implementation of the WebSocket protocol client and server (.NET 7 fork
+)</Description>
     <Product>websocket-sharp.dll</Product>
-    <Copyright>sta.blockhead</Copyright>
+    <Copyright>sta.blockhead, KrykiZZ</Copyright>
     <AssemblyVersion>1.0.2.%2a</AssemblyVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title> WebSocketSharp .NET 7 fork</Title>
+    <RepositoryUrl>https://github.com/KrykiZZ/websocket-sharp</RepositoryUrl>
+    <Authors>$(AssemblyName), KrykiZZ</Authors>
+    <PackageId>$(AssemblyName)-net7</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug</OutputPath>
